@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements
         AuthenticationRequest.Builder builder = new AuthenticationRequest.Builder(CLIENT_ID,
                 AuthenticationResponse.Type.TOKEN,
                 REDIRECT_URI);
-        builder.setScopes(new String[]{"user-read-private", "streaming"});
+        builder.setScopes(new String[]{"playlist-read-private", "playlist-read-collaborative", "user-read-private", "streaming"});
         AuthenticationRequest request = builder.build();
 
         AuthenticationClient.openLoginActivity(this, REQUEST_CODE, request);
@@ -98,8 +98,9 @@ public class MainActivity extends Activity implements
     @Override
     public void onLoggedIn() {
         Log.d("MainActivity", "User logged in");
-
-        mPlayer.playUri(null, "spotify:track:2TpxZ7JUBn3uw46aR7qd6V", 0, 0);
+        //This is where you redirect to your second gui chan
+        //we'll need to pass Client_ID as well as Request_code
+        mPlayer.playUri(null, "spotify:user:122231819:playlist:4Ms3VQFFIVNnhCEpagkyw4", 0, 0);
     }
 
     @Override
