@@ -100,9 +100,8 @@ public class MainActivity extends Activity implements
         Log.d("MainActivity", "User logged in");
         //This is where you redirect to your second gui chan
         //we'll need to pass Client_ID as well as Request_code
-        mPlayer.playUri(null, "spotify:user:122231819:playlist:4Ms3VQFFIVNnhCEpagkyw4", 0, 0);
+        mPlayer.playUri(null, "spotify:user:122231819:playlist:0xCTDnfK1wnzUYHMM7ZeUA", 0, 0);
     }
-
     @Override
     public void onLoggedOut() {
         Log.d("MainActivity", "User logged out");

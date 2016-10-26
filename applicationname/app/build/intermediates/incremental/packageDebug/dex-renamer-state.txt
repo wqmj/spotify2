@@ -1,4 +1,4 @@
-#Sat Oct 22 11:52:47 EDT 2016
+#Wed Oct 26 15:54:17 EDT 2016
 base.0=/Users/traviskohler/AndroidStudioProjects/applicationname/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0796495c1c3d9fd31f176b4fec4a51dcd361021d
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -11,13 +11,37 @@
                     "endOffset": 117
                 },
                 "from": {
-                    "file": "/Users/traviskohler/AndroidStudioProjects/applicationname/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-h720dp/values-h720dp.xml",
+                    "file": "/Users/traviskohler/AndroidStudioProjects/applicationname/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 232,
+                        "startOffset": 55,
                         "endColumn": 66,
-                        "endOffset": 294
+                        "endOffset": 117
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/traviskohler/spotify2/applicationname/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/Users/traviskohler/spotify2/applicationname/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
                     }
                 }
             }

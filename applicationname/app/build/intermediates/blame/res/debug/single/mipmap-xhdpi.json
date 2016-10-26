@@ -2,5 +2,9 @@
     {
         "merged": "/Users/traviskohler/AndroidStudioProjects/applicationname/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/traviskohler/AndroidStudioProjects/applicationname/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/traviskohler/spotify2/applicationname/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/traviskohler/spotify2/applicationname/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]

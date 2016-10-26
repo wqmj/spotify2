@@ -2,9 +2,8 @@
 package companydomain.applicationname;
 
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
@@ -17,7 +16,7 @@ import java.net.URL;
 
 public class Get_Playlists extends AsyncTask<String, Void, JSONObject>
 {
-    Exception mException = null;
+    private Exception mException = null;
     
     protected void onPreExecute()
     {
@@ -53,8 +52,21 @@ public class Get_Playlists extends AsyncTask<String, Void, JSONObject>
         {
             this.mException = e;
         }
+        JSONObject ploutput = new JSONObject();
+        try {
+            //Get the instance of JSONArray that contains JSONObjects
+            JSONObject firstreduced = object.optJSONObject("items");
+            JSONArray names = firstreduced.optJSONArray("name");
+            JSONArray pllocation = firstreduced.optJSONArray("uri");
 
-        return (object);
+            ploutput.put("names",names);
+            ploutput.put("pllocation",pllocation);
+        }
+        catch(Exception e)
+        {
+            this.mException = e;
+        }
+        return(ploutput);
     }
 
 }
