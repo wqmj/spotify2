@@ -11,49 +11,51 @@
     android:orientation="vertical"
     tools:context="com.example.caozhenjie.ec601_spotify.spotifyloginpage">
 
-    <Button
+    <ImageButton
         android:id="@+id/btn1"
         android:layout_width="150dp"
         android:layout_height="80dp"
         android:layout_weight="1"
-        android:src="@drawable/happy"
-        android:gravity="center|center_horizontal|center_vertical"
+        android:background="@drawable/happy"
+
+        android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
         android:padding="20dp"
+        android:scaleType="fitCenter"
         />
 
-    <Button
+    <ImageButton
         android:id="@+id/btn2"
         android:layout_width="150dp"
         android:layout_height="80dp"
         android:layout_weight="1"
-        android:src="@drawable/sad"
-        android:gravity="center|center_horizontal|center_vertical"
+        android:background="@drawable/sad"
+
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
         android:padding="20dp"
         android:scaleType="fitCenter"
         />
-    <Button
+    <ImageButton
         android:id="@+id/btn3"
         android:layout_width="150dp"
         android:layout_height="80dp"
         android:layout_weight="1"
-        android:src="@drawable/hype"
-        android:gravity="center|center_horizontal|center_vertical"
+        android:background="@drawable/hype"
+
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
         android:padding="20dp"
         android:scaleType="fitCenter"
         />
-    <Button
+    <ImageButton
         android:id="@+id/btn4"
         android:layout_width="150dp"
         android:layout_height="80dp"
         android:layout_weight="1"
-        android:src = "@drawable/uplifting"
-        android:text="uplifting"
-        android:gravity="center|center_horizontal|center_vertical"
+        android:background= "@drawable/uplifting"
+
+
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
         android:padding="20dp"

@@ -2,6 +2,7 @@ package com.example.caozhenjie.ec601_spotify;
 
 
 
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -10,6 +11,7 @@ import android.content.Intent;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.spotify.sdk.android.authentication.AuthenticationClient;
@@ -37,7 +39,10 @@ public class spotifyloginpage extends AppCompatActivity implements
 {
 
 
-    private Button btn1, btn2, btn3, btn4;
+    private ImageButton btn1;
+    private ImageButton btn2;
+    private ImageButton btn3;
+    private ImageButton btn4;
 
     // TODO: Replace with your client ID
     private static final String CLIENT_ID = "0e1efd1fec78491fa7335a197d5a9d8b";
@@ -49,7 +54,7 @@ public class spotifyloginpage extends AppCompatActivity implements
     private static final int REQUEST_CODE = 1337;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spotifyloginpage);
 
@@ -125,10 +130,10 @@ public class spotifyloginpage extends AppCompatActivity implements
     }
 
     private void playlist() {
-            btn1 = (Button) findViewById(R.id.btn1);
-            btn2 = (Button) findViewById(R.id.btn2);
-            btn3 = (Button) findViewById(R.id.btn3);
-            btn4 = (Button) findViewById(R.id.btn4);
+            btn1 = (ImageButton) findViewById(R.id.btn1);
+            btn2 = (ImageButton) findViewById(R.id.btn2);
+            btn3 = (ImageButton) findViewById(R.id.btn3);
+            btn4 = (ImageButton) findViewById(R.id.btn4);
 
 
             btn1.setOnClickListener(new View.OnClickListener() {

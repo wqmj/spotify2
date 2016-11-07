@@ -19,7 +19,8 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 public class SecondOne extends AppCompatActivity {
 
-    private Button btn1, btn2;
+    private ImageButton btn1;
+    private ImageButton btn2;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -39,8 +40,8 @@ public class SecondOne extends AppCompatActivity {
 
 
     private void initView() {
-        btn1 = (Button) findViewById(R.id.btn1);
-        btn2 = (Button) findViewById(R.id.btn2);
+        btn1 = (ImageButton) findViewById(R.id.btn1);
+        btn2 = (ImageButton) findViewById(R.id.btn2);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

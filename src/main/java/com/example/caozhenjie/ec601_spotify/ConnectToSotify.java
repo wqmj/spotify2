@@ -27,6 +27,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -92,7 +93,7 @@ public class ConnectToSotify extends AppCompatActivity implements LoaderCallback
             }
         });
 
-        final Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
+        final ImageButton mEmailSignInButton = (ImageButton) findViewById(R.id.email_sign_in_button);
 
         mEmailSignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
