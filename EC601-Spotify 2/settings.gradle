@@ -1,0 +1,5 @@
+include ':app'
+include ':app:libs:TouchFreeLibrary'
+include ':openCVLibrary310'
+include ':app:libraries:TouchFreeLibrary'
+include ':openCVLibrary2411'

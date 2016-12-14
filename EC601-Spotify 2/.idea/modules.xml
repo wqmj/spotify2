@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EC601-Spotify 2.iml" filepath="$PROJECT_DIR$/EC601-Spotify 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/libraries/libraries.iml" filepath="$PROJECT_DIR$/app/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/libraries/TouchFreeLibrary/libraries-TouchFreeLibrary.iml" filepath="$PROJECT_DIR$/app/libraries/TouchFreeLibrary/libraries-TouchFreeLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/libs/libs.iml" filepath="$PROJECT_DIR$/app/libs/libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/libs/TouchFreeLibrary/libs-TouchFreeLibrary.iml" filepath="$PROJECT_DIR$/app/libs/TouchFreeLibrary/libs-TouchFreeLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary2411/openCVLibrary2411.iml" filepath="$PROJECT_DIR$/openCVLibrary2411/openCVLibrary2411.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" filepath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" />
+    </modules>
+  </component>
+</project>
